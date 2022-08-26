@@ -1,0 +1,25 @@
+variables:
+    suppliers:matches.csv
+header:
+    title:My project
+    subtitle:My project subtitle
+    author:John Doe
+body:
+    col:
+        row:
+            text: This is a test project for my dash maker thingy.
+        scatter:
+            data:hello.csv
+            description:Nuage de point représentant le montant par id du fournisseur
+            x:id
+            y:amount
+        table:
+            data:hw_25000.csv
+            fields:*
+
+
+    row:
+        text:Hello world how are we doing today?
+
+footer:
+    none

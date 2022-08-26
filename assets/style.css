@@ -1,0 +1,17 @@
+.layout-add{
+    width:100%;
+    height:fit-content;
+    background-color:#b2c1ff;
+}
+
+.layout-add:hover{
+    cursor:pointer;
+}
+
+.clickable{
+    cursor:default;
+}
+
+.clickable:hover{
+    cursor:pointer;
+}
